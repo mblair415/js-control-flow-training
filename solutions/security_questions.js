@@ -30,3 +30,14 @@ for (var i=0; i < securityQuestions.length; i++){
 if (hacker){
   console.log("Stop!");
 }
+
+var securityQuestions = [
+	{ question: "Where were you born", answer: "Texas" },
+ 	{ question: "What is your favorite number", answer: "43" },
+	{ question: "What is your favorite fruit", answer: "pineapple" }
+];
+
+for (var i = 0; i < securityQuestions.length; i++) {
+	userInput = prompt(securityQuestions[i]);
+	if (userInput === securityQuestions[i])
+}
